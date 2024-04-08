@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    background-color: blueviolet;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.fashion_options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    padding: 1rem;
+}
+
+.f_option p{
+    margin-left: 5px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 0.7rem;
+}
+
+.f_option img {
+    height: 10vh;
+}
+
+.upcoming_sales{
+    background-color: lightgrey;
+    padding: 2rem 4rem;
+}
+
+.time_banner img {
+    width: 100%;
+    height: 50vh;
+}
+
+.upcoming_sales_option h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    font-weight: 900;
+    color: grey;
+
+}
+
+.upcoming_sales_option table{
+    width: 100%;
+    padding: 2rem 5rem;
+}
+
+.upcoming_sales_option table,th,td{
+    border: 1px solid rgb(87, 85, 85);
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0.8rem;
+    
+}
+
+.upcoming_sales_option table th{
+    background-color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+}
+
+.attract_user_info{
+    background-color: whitesmoke;
+    padding: 2rem 4rem;
+    color: grey;
+}
+
+.attract_user_info .offer_sale{
+    padding: 5px 20px;
+}
+
+.admin{
+    /* text-transform: uppercase; */
+    text-align: center;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    background-color:rgb(68, 66, 66);
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer p{
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-weight: 700;
+    height: 10vh;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        font-size: 1.4rem;
+        padding-top: 1rem;
+    }
+
+    .f_option img {
+        height: 9vh;
+    }
+    
+    .upcoming_sales_option table{
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+}
