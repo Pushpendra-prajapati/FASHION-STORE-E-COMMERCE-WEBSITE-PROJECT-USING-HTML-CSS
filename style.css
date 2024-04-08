@@ -110,7 +110,7 @@ footer p{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (min-width:400px) and (max-width: 600px){
     .navbar{
         font-size: 1.4rem;
         padding-top: 1rem;
